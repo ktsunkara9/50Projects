@@ -42,7 +42,6 @@ function updateProgress() {
     prev.disabled = true;
   } else if (actives.length === circles.length) {
     next.disabled = true;
-    prev.disabled = false;
   } else {
     next.disabled = false;
     prev.disabled = false;
